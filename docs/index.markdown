@@ -1,6 +1,11 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: half
+title: Mechstack
 ---
+{% if site.title %}
+  <h1 class="pageTitle">{{ site.title }}</h1>
+{% endif %}
+
+{% if site.content %}
+  <p class="pageContent">{{ site.content }}</p>
+{% endif %}

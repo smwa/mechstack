@@ -1,0 +1,28 @@
+{
+  "short_name": "Mechstack",
+  "name": "Mechstack.dev Home Page",
+  "icons": [
+    {
+      "src": "./img/favicon.png",
+      "type": "image/png",
+      "sizes": "1280x1280"
+    },
+    {
+      "src": "./img/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./img/apple-mask-icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#222222",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#00FFBB",
+  "description": "A home page for Mechstack.dev, an Oklahoma software engineering firm."
+}

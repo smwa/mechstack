@@ -37,9 +37,6 @@ exclude:
   - .jekyll-cache/
   - vendor/
   - .gitignore
-  - CNAME
   - Gemfile
   - Gemfile.lock
   - run.sh
-
-

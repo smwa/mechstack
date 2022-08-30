@@ -5,11 +5,6 @@
   "name": "{{ site.data.site.name }}",
   "icons": [
     {
-      "src": "{{ site.data.site.logo | remove_file_extension | append: '.webp' | relative_url }}",
-      "type": "image/webp",
-      "sizes": "192x192"
-    },
-    {
       "src": "{{ site.data.site.logo | relative_url }}",
       "sizes": "192x192"
     },
@@ -17,11 +12,6 @@
       "src": "{{ site.data.site.themed_mask_icon | relative_url }}",
       "sizes": "256x256",
       "purpose": "maskable"
-    },
-    {
-      "src": "{{ site.data.site.sharing_image | remove_file_extension | append: '.webp' | relative_url }}",
-      "type": "image/webp",
-      "sizes": "512x512 1024x1024"
     },
     {
       "src": "{{ site.data.site.sharing_image | relative_url }}",

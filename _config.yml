@@ -22,6 +22,16 @@ plugins:
   - jekyll-webp
   - jekyll-remove-file-extension
 
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      asset: true
+  - scope:
+      path: "lib"
+    values:
+      asset: true
+
 exclude:
   - .bundle/
   - .jekyll-cache/

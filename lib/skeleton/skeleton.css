@@ -91,7 +91,10 @@ svg {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    z-index: -1;
+}
+
+.sections > * > * > img + * {
+    z-index: 1;
 }
 
 .sections > * > * > img + *::after {
@@ -102,9 +105,15 @@ svg {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: white;
     z-index: -1;
     opacity: 0.4;
+}
+
+@media (prefers-color-scheme: dark) {
+    .sections > * > * > img + *::after {
+        background-color: black;
+    }
 }
 
 .center-content {

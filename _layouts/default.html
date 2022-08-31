@@ -37,6 +37,7 @@
   <body>
     <div class="navigation-bar">
       <a href="{{ '/' | relative_url }}">
+        {% assign alt_text = 'Logo | Site generated ' | append: site.time | replace:' ','.' %}
         {% include picture.html url=site.data.site.logo alt='Site logo' %}
       </a>
       {% for navlink in site.data.navigation %}

@@ -37,12 +37,12 @@
   <body>
     <div class="navigation-bar">
       <a href="{{ '/' | relative_url }}">
-        {% assign alt_text = 'Logo | Site generated ' | append: site.time | replace:' ','.' %}
-        {% include picture.html url=site.data.site.logo alt='Site logo' %}
+        {% include picture.html url=site.data.site.logo title='Site logo' %}
       </a>
       {% for navlink in site.data.navigation %}
           <a href="{{ navlink.url }}">{{ navlink.text }}</a>
       {% endfor %}
+      <div style="width: 1em" title="{{ 'Site generated at ' | append: site.time }}"> </div>
     </div>
       <div class="sections">
         {{ content }}

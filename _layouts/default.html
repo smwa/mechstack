@@ -42,7 +42,7 @@
       {% for navlink in site.data.navigation %}
           <a href="{{ navlink.url }}">{{ navlink.text }}</a>
       {% endfor %}
-      <img src="/missing-image.png" style="width: 1em; opacity: 0%" title="{{ 'Site generated at ' | append: site.time }}"> </div>
+      <img src="{{ site.data.site.logo | relative_url }}" style="width: 1em; opacity: 0%" title="{{ 'Site generated at ' | append: site.time }}"> </div>
     </div>
       <div class="sections">
         {{ content }}

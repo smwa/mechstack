@@ -21,11 +21,11 @@ svg {
 }
 
 .navigation-bar > *:first-child > * {
-    width: calc(100% - 16px);
+    width: 2rem;
 }
 
 .navigation-bar > * {
-    height: calc(100% - 16px);
+    height: 2rem;
     padding: 4px;
     display: flex;
     align-items: center;

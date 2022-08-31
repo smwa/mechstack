@@ -20,6 +20,10 @@ svg {
     gap: 12px;
 }
 
+.navigation-bar > *:first-child > * {
+    width: calc(100% - 16px);
+}
+
 .navigation-bar > * {
     height: calc(100% - 16px);
     padding: 4px;

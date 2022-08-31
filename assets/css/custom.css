@@ -38,6 +38,13 @@ svg {
     stroke: #2c2c2c;
 }
 
+@media (prefers-color-scheme: light) {
+    .navigation-bar img {
+        background-color: #000000;
+        border-radius: 100%;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     html {
         background-color: #333333;

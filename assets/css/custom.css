@@ -1,10 +1,14 @@
 html {
     background-color: #FFFFFF;
-    color: #333333;
+    color: #222222;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #000000;
+}
+
+* {
+    border-color: #00FFBB;
 }
 
 .sections a {
@@ -17,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navigation-bar, .navigation-bar :link, .navigation-bar :visited {
-    color: #a5a5ff;
+    color: #222222;
 }
 
 .sections {
@@ -35,29 +39,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 svg {
-    stroke: #2c2c2c;
+    stroke: #000000;
 }
 
 @media (prefers-color-scheme: light) {
     .navigation-bar img {
-        background-color: #000000;
+        background-color: #222222;
         border-radius: 100%;
     }
 }
 
 @media (prefers-color-scheme: dark) {
     html {
-        background-color: #333333;
+        background-color: #222222;
         color: #ffffff;
     }
 
     .sections a {
-        color: white;
-        border-color: white;
+        color: #00FFBB;
+        border-color: #00FFBB;
     }
 
     svg {
-        stroke: #c3c3c3;
+        stroke: #00FFBB;
     }
     
     .navigation-bar, .navigation-bar :link, .navigation-bar :visited {

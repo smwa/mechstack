@@ -1,11 +1,11 @@
-name: Name
-title: Marketing Skeleton
+name: Mechstack
+title: Mechstack
 description: >- # this means to ignore newlines until the next yaml key
-  Lorem Ipsum.
-color: "#a5a5ff"
-background_color: "#333333"
+  Landing page for Mechstack, an LLC in Oklahoma created by Michael Smith.
+color: "#00FFBB"
+background_color: "#222222"
 logo: "assets/img/logo.png"
 apple_mask_icon: "assets/img/apple-mask-icon.svg"
 themed_mask_icon: "assets/img/themed-mask-icon.png"
-sharing_image: "assets/img/example2.png"
-twitter: "@mechstack"
+sharing_image: "assets/img/headshot.png"
+twitter: ""

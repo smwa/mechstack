@@ -28,6 +28,7 @@ const PRECACHE_URLS = [
   {% for page in site.html_pages %}
     '.{{ page.url }}',
   {% endfor %}
+  'sitemap.xml',
   './index.html'
 ];
 

@@ -35,7 +35,7 @@
 
   </head>
   <body>
-    <div class="navigation-bar">
+    <div class="navigation-bar" role="heading">
       <a href="{{ '/' | relative_url }}">
         {% include picture.html url=site.data.site.logo title='Site logo' %}
       </a>
@@ -44,9 +44,9 @@
       {% endfor %}
       <img src="{{ site.data.site.logo | relative_url }}" style="width: 1em; opacity: 0%" title="{{ 'Site generated at ' | append: site.time }}"> </div>
     </div>
-      <div class="sections">
-        {{ content }}
-      </div>
+    <div class="sections" role="main">
+      {{ content }}
+    </div>
     <script src="{{ 'lib/feather.min.js' | relative_url }}"></script>
     <script>
       feather.replace();
